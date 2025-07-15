@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #d5e1ef;
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card {
+    background-color: white;
+    width: 320px;
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .qr-container {
+    background-color: #2c7dfa;
+    padding: 16px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .qr-container img {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 20px;
+    color: #1f3251;
+    font-weight: 700;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .description {
+    font-size: 15px;
+    color: #7b879d;
+    font-weight: 400;
+    padding: 0 20px;
+    margin-bottom: 8px;
+  }
